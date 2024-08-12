@@ -1,0 +1,142 @@
+/* Reset some default styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+/* Default styles for all screen sizes */
+
+  
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Set a background color for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* Style the header */
+header {
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../static/img01.png");
+  color: var(--white-color);
+}
+.header {
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../static/img01.png");
+    color: var(--white-color);
+  }
+
+/* Style the contact-info section */
+.contact-info {
+    margin: 20px;
+    width: 20;
+    height: auto;
+    background-color: rgb(224, 210, 210);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style the heading and paragraph inside the contact-info section */
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style the unordered list inside the contact-info section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style list items inside the unordered list */
+li {
+    margin-bottom: 15px;
+}
+
+/* Style icons */
+i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* Style links inside list items */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: 30px;
+    
+    height: auto;
+    background-color: rgb(224, 210, 210);
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 20;
+    
+}
+section {
+    border: 2px solid #810d0d;
+    border-radius: 6px;
+    
+   
+
+}
+.nav-home, .nav-contact,.nav-about {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 15px;
+    border: 1px solid #a12e2e;
+    border-radius: 5px;
+  
+}
+.nav-home a , .nav-contact a , .nav-about a {
+    color: rgb(255, 252, 252);
+}
+span {
+    color: var(--main-color);
+    font-weight: 800;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    background-color: #2f2a2a;
+    
+}
+
+

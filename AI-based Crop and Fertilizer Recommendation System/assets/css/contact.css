@@ -1,0 +1,121 @@
+/* Reset some default styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* Style the header */
+header {
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/dark-cover12.png");
+  color: var(--white-color);
+}
+.header {
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/dark-cover12.png");
+    color: var(--white-color);
+  }
+
+/* Style the contact-info section */
+.contact-info {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(224, 210, 210);
+    padding: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style the heading and paragraph inside the contact-info section */
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style the unordered list inside the contact-info section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style list items inside the unordered list */
+li {
+    margin-bottom: 15px;
+}
+
+/* Style icons */
+i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* Style links inside list items */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+a:hover {
+    text-decoration: underline;
+}
+section {
+    background-color: rgb(224, 208, 208);
+    padding: 150px;
+    box-shadow: 0 0 10px rgba(43, 2, 2, 0.1);
+}
+section {
+    border: 2px solid #810d0d;
+    border-radius: 8px;
+}
+.nav-home, .nav-about {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px 15px;
+    border: 1px solid #a12e2e;
+    border-radius: 5px;
+  
+}
+.nav-home a , .nav-about a {
+    color: black;
+}
+span {
+    color: var(--main-color);
+    font-weight: 800;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
